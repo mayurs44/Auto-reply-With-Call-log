@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mhmt.autotextmate.Main" >
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="1"
+        android:title="@string/main_menu_new" />
+    
+    <item
+        android:id="@+id/action_outbox"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_action_outbox"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/main_menu_outbox"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/main_menu_settings"/>
+   
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        android:title="@string/main_menu_about" />
+    
+    <item
+        android:id="@+id/action_instructions"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="@string/main_menu_instructions" />
+
+</menu>

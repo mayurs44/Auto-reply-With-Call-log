@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mhmt.autoreplymate.activities.ContactPicker">
+
+    <item
+        android:id="@+id/contactpicker_action_done"
+        android:icon="@drawable/ic_action_done"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="1"
+        android:title="@string/contactpicker_menu_done" />
+
+    <item
+        android:id="@+id/contactpicker_action_selectAll"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="2"
+        android:title="@string/contactpicker_menu_selectAll" />
+
+    <item
+        android:id="@+id/contactpicker_action_deselectAll"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="3"
+        android:title="@string/contactpicker_menu_deselectAll" />
+
+</menu>

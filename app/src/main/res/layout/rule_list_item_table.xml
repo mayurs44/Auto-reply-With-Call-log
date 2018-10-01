@@ -1,0 +1,65 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="0" 
+    android:stretchColumns="0" >
+
+    <TableRow>
+        <TextView
+            android:id="@+id/list_textView_name"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="6"
+            android:gravity="start|center" />
+        
+        <ImageView
+            android:id="@+id/list_onlyContacts_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_person"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/list_sms_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sms"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/list_call_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call"
+            android:layout_column="3"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/list_textView_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_weight="6"
+            android:gravity="start|center"
+            android:ellipsize="end"
+            android:maxLines="3" />
+        
+        <ToggleButton
+            android:id="@+id/list_toggleButton_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+    </TableRow>
+
+</TableLayout>

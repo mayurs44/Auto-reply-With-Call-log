@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mhmt.autotextmate.Main" >
+
+    <item
+        android:id="@+id/outbox_action_deleteAll"
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/outbox_menu_deleteAll" />
+    
+</menu>
